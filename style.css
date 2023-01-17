@@ -1,0 +1,16 @@
+*{
+    margin:10px;
+    background-color:darkblue;
+}
+.para{
+    color:aliceblue;
+}
+#heading{
+    color:yellow;
+}
+.para,#heading{
+    color:red;
+}
+p.para{
+    color:green;
+}
