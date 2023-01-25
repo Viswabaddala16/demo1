@@ -51,3 +51,33 @@ p::before{
 p::after{
     content:"---text---";
 }
+body{
+    font-family: 'Lato', sans-serif;
+}
+.form-control{
+    width: 25%;
+    height: 10px;
+    border:2px solid #ddd;
+    border-radius:3px;
+    border:none;
+}
+.form-control.focus{
+    outline:none;
+    border:none;
+    
+}
+select{
+    width: 20%;
+    height: 32px
+}
+.title{
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+    
+
+    
+
+}
