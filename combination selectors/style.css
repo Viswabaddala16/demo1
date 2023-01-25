@@ -1,0 +1,53 @@
+/*div p{
+
+    color:red;
+
+}
+ul li{
+    background-color:pink;
+}
+.container,#heading{
+    color:red;
+}*/
+div + p{
+    color:orangered;
+}
+div ~ p{
+    color:blue;
+}
+.btn:hover{
+    background-color:orangered;
+    color:white;
+    cursor:pointer;
+}
+.btn{
+    background-color:orange;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.link:active{
+    color:black;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:green;
+
+}
+a:hover{
+    color:aqua;
+}
+p::first-line{
+    color:black;
+}
+p::first-letter{
+    color :orange;
+}
+p::before{
+    content:"---text---";
+}
+p::after{
+    content:"---text---";
+}
