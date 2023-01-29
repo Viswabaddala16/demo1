@@ -1,0 +1,28 @@
+*{
+    color:red;
+}
+.para{
+    color:pink;
+}
+:hover{
+    color:aqua;
+}
+a[href="#"]{
+       color:red;     
+}
+p{
+    color:blue;
+}
+#para_id{
+    color:blue;
+}
+::first-line{
+    color:black;
+}
+p::first_line{
+    color:green;
+}
+.para{
+    color:yellow!important;
+    background:orange;
+}

@@ -41,68 +41,69 @@
       sdgsdbjdssdfbsddjfgsdgsdb sgdbsdnsd hsgddfdf dfjdsd fjnsdfhu sdfjj.
     </p>
     <h1>html form</h1>
-    <div>
+    <form action="#" method="post">
       <div class="title">
-        <label for="email">Email Address</label> 
-      </div>    
-      <input class="form-control" type="email" name="email" /> 
-    </div>
-    <div>
-      <div class="title">
-        <label for="fname">Full Name</label>
+        <div>
+          <label for="email">Email Address</label> 
+        </div>
+        <input class="form-control" type="email" name="email" /> 
       </div>
-       
-      <input class="form-control" type="text" name="fname" placeholder="first name" />
-      <input class="form-control" type="text" name="lname" placeholder="last name" /> 
-    </div> 
-    <div>
-      <div class="title">
-        <label for="address">Address</label></div>
-      <input class="form-control" type="text" name="street" placeholder="Street Address" /> <br />
-      <input class="form-control" type="text" name="add" placeholder="Office,Suite,Apt" />
-    </div>
-    <div>
-      <div class="title">
-        <label for="city">City</label></div>      
-      <input class="form-control" type="text" name="city"/>
-      <select name="state" id="state">
-        <option value="haryana">Haryana</option>
-        <option value="delhi">delhi</option>
-        <option value="karnataka">karnataka</option> 
-      </select>
-      <input class="form-control" type="number" placeholder="zip"/>
-    </div>
-    <div>
-      <div class="title">
-        <label for="radio-tech">What radio technologies are you using?</label></div>    
-      <input class="form-control" type="checkbox" name="net-1" value="2G"/>2G
-      <input class="form-control" type="checkbox" name="net-2" value="3G"/>3G
-      <input class="form-control" type="checkbox" name="net-3" value="4G"/>4G
-      <input class="form-control" type="checkbox" name="net-4" value="5G"/>5G
-    </div> 
-    <div>
-      <div class="title">
-        <label for="data-use">How much data do you use monthly?</label></div>
-     
-    <input class="form-control" type="radio" name="net" />0-50MB
-    <input class="form-control" type="radio" name="net" />50-150MB
-    <input class="form-control" type="radio" name="net" />150-250MB
-    <input class="form-control" type="radio" name="net" />250-550MB
-  </div>
-  <div>
-    <div class="title">
-      <label for="subscription">Subscription Duration</label></div>
-    
-    <input class="form-control" type="date" name="date">
-    <input class="form-control" type="month" name="month">
-    <label for="to">To</label>
-    <input class="form-control" type="datetime-local" name="datetime-local">
-    <input class="form-control" type="month" name="month">
-  </div>
-  <div>
-  <input type="text" value="Reset form">
-  <input type="text" value="Submit">
-  </div>
-   
+      <div class="form-fields" >
+        <div class="title">       
+          <label for="fname">Full Name</label>
+        </div>
+        <input class="form-control" type="text" name="fname" placeholder="first name" />
+        <input class="form-control" type="text" name="lname" placeholder="last name" />        
+      </div>
+      <div class="form-fields">
+        <div class="title">
+          <label for="address">Address</label>
+        </div>
+        <input class="form-control" type="text" name="street" placeholder="Street Address" /> <br />
+        <input class="form-control" type="text" name="add" placeholder="Office,Suite,Apt" />
+      </div>
+      <div class="form-fields">
+        <div class="title">
+          <label for="city">City</label></div>      
+        <input class="form-control" type="text" name="city"/>
+        <select name="state" id="state">
+          <option value="haryana">Haryana</option>
+          <option value="delhi">delhi</option>
+          <option value="karnataka">karnataka</option> 
+        </select>
+        <input class="form-control" type="number" placeholder="zip"/>
+      </div>
+      <div class="form-fields">
+        <div class="title">
+          <label for="radio-tech">What radio technologies are you using?</label></div>    
+        <input  type="checkbox" name="net-1" value="2G"/>2G
+        <input  type="checkbox" name="net-2" value="3G"/>3G
+        <input  type="checkbox" name="net-3" value="4G"/>4G
+        <input  type="checkbox" name="net-4" value="5G"/>5G
+      </div> 
+      <div class="form-fields">
+        <div class="title">
+          <label for="data-use">How much data do you use monthly?</label>
+        </div>
+        <input  type="radio" name="net" />0-50MB
+        <input  type="radio" name="net" />50-150MB
+        <input  type="radio" name="net" />150-250MB
+        <input  type="radio" name="net" />250-550MB
+      </div>
+      <div class="form-fields">
+        <div class="title">
+          <label for="subscription">Subscription Duration</label>
+        </div>
+        <input class="form-control" type="date" name="date">
+        <input class="form-control" type="month" name="month">
+        <label for="to">To</label>
+        <input class="form-control" type="datetime-local" name="datetime-local">
+        <input class="form-control" type="month" name="month">
+      </div>
+      <div class="form-fields">
+        <input class="btn" type="reset" value="Reset form">
+        <input class="btn" type="submit" value="Submit">
+      </div>
+    </form>
   </body>
 </html>

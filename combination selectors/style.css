@@ -56,28 +56,48 @@ body{
 }
 .form-control{
     width: 25%;
-    height: 10px;
+    height: 20pxpx;
+    border:none;
     border:2px solid #ddd;
     border-radius:3px;
-    border:none;
+    background-color: white;
+
 }
-.form-control.focus{
+.form-control.focus,select.focus{
     outline:none;
-    border:none;
+    box-shadow:rgba(red, green, blue, alpha);
+
     
 }
 select{
     width: 20%;
-    height: 32px
+    height: 27xpx
 }
 .title{
     font-size: 13px;
     font-weight: 600;
     margin-bottom: 6px;
 }
-
-    
-
-    
-
+.btn{
+    width: 23%;
+    height: 35px;
+    margin: 0px 15px;
+    background: rgb(33, 33, 121);
+    border:none;
+    color: white;
+    border-radius: 3px;
 }
+.form-fields{
+    margin-bottom:50px;
+}
+input[type="text"],input[type="email"],input[type="data"],input[type="month"]{
+    font-family: 'Lato', sans-serif;
+    padding:0px 15px;
+    margin-bottom:13px;
+    margin-right:15px;
+}
+
+    
+
+    
+
