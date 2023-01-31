@@ -1,0 +1,21 @@
+table,th,td,tr{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding: 10px 5px;
+    text-align:center;
+    border-style:pointer;
+
+}
+table{
+    width:100%;
+    background-color:blue;
+
+}
+th{
+    background-color:aquamarine;
+}
+td:nth-child(odd){
+    background-color:white;
+
+
+}
